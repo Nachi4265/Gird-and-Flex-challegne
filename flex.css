@@ -1,0 +1,29 @@
+*{
+    margin:1px;
+    padding: 10px;
+    background-color: lightblue;}
+
+
+h1{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color: darkblue;
+}
+
+
+.flex-container {
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.Car form{
+    background-color: aliceblue;
+}
+
+@media (max-width: 400px){
+    .flex-container{
+        flex:auto
+    }
+}
